@@ -2,6 +2,11 @@
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
 * text=auto
+# Auto detect text files and perform LF normalization
+* text=auto
+
+*.css linguist-detectable=false
+*.js linguist-detectable=false
 
 ###############################################################################
 # Set default behavior for command prompt diff.
